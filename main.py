@@ -29,16 +29,3 @@ def partial(func) -> callable:
 	#
 	return wrapper
 #
-
-if __name__ == "__main__":
-    @partial
-    def test(a: int, b: int, c: int = None) -> tuple[int, int, int|None]:
-        return a, b, c
-    #
-    
-    print("Test 1.0 :", test(b = 2))
-    print("Test 1.1 :", test(1))
-    print("Test 1.2 :", test(c = 3))
-    print("Test 2 :", test(1, 2))
-    print("Test 3 :", test(c = 10))
-    print("Test 4 :", test(0, 1, 2))
