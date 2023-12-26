@@ -11,7 +11,7 @@ def test(a: any, b: any, c: any = None) -> tuple[any, any, any]:
 ```
 
 The output according to the functio calls bellow are :
-```
+```python
 print("Test 1.0 :", test(b = 2)) # OUT : Test 1.0 : Arguments function not completed...
 print("Test 1.1 :", test(1)) # OUT : Test 1.1 : Arguments function not completed...
 print("Test 1.2 :", test(c = 3)) # OUT : Test 1.2 : (1, 2, 3)
