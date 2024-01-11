@@ -1,4 +1,4 @@
-<img width="896" alt="image" src="https://github.com/pax-projects/python-partial-application/assets/128149211/8bab2234-cc98-421b-843c-6519e1173578"># python-partial-application
+partial-application
 This little function allows a partial application of Python functions by using a decorator.
 
 # How to use it:
