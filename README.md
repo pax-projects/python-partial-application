@@ -33,4 +33,14 @@ def add(x, y):
 The output according to the function call below is :
 ```python
 list(map(lambda x: 1 + x, [0, 1, 2])) # OUT : [1, 2, 3]
+# This is the equivalent of :
+list(map(lambda x: add(1)(x), [0, 1, 2])) # OUT : [1, 2, 3]
+```
+
+## Warning !
+Do not store the function in a variable, cause the arguments will be used.
+The following code will not working :
+```python
+function = add(1)
+list(map(function, [0, 1, 2])) # OUT : Will not be the same as [1, 2, 3]
 ```
