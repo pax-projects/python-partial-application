@@ -24,6 +24,7 @@ print("Test 4 :", test(0, 1, 2)) # OUT : Test 4 : (0, 1, 2)
 ```
 
 > Second test
+
 The function used :
 ```python
 @partial
