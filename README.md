@@ -38,7 +38,7 @@ list(map(lambda x: add(1)(x), [0, 1, 2])) # OUT : [1, 2, 3]
 ```
 
 ## Warning !
-Do not store the function in a variable, cause the arguments will be used.
+Do not store the function in a variable, because the arguments will be used.
 The following code will not working :
 ```python
 function = add(1)
