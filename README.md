@@ -4,6 +4,7 @@ This little function allows a partial application of Python functions by using a
 ## How to use it:
 
 > First test
+
 You can use this function with a little decorator like in the example right bellow :
 ```python
 # Once code added
